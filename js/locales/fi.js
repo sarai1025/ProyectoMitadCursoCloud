@@ -77,7 +77,7 @@
         dropZoneClickTitle: '<br>(tai valitse hiirellä {files})',
         fileActionSettings: {
             removeTitle: 'Poista tiedosto',
-            uploadTitle: 'Upload file',
+            //uploadTitle: 'Upload file',
             uploadRetryTitle: 'Retry upload',
             downloadTitle: 'Download file',
             zoomTitle: 'Yksityiskohdat',

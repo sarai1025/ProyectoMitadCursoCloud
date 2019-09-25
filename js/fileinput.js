@@ -1379,10 +1379,10 @@
                 '<div class="input-group {class}">\n' +
                 '  {caption}\n' +
                 '<div class="input-group-btn input-group-append">\n' +
-                '      {remove}\n' +
+               // '      {remove}\n' +
                 '      {cancel}\n' +
                 '      {pause}\n' +
-                '      {upload}\n' +
+                //'      {upload}\n' +
                 '      {browse}\n' +
                 '    </div>\n' +
                 '</div>';
@@ -1446,7 +1446,7 @@
                 '</div>';
             tActions = '<div class="file-actions">\n' +
                 '    <div class="file-footer-buttons">\n' +
-                '        {download} {upload} {delete} {zoom} {other}' +
+                '        {delete} {zoom} {other}' +
                 '    </div>\n' +
                 '</div>\n' +
                 '{drag}\n' +

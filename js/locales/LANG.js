@@ -15,7 +15,7 @@
         fileSingle: 'file',
         filePlural: 'files',
         browseLabel: 'Browse &hellip;',
-        removeLabel: 'Remove',
+    //removeLabel: 'Remove',
         removeTitle: 'Clear selected files',
         cancelLabel: 'Cancel',
         cancelTitle: 'Abort ongoing upload',
@@ -89,7 +89,7 @@
         dropZoneClickTitle: '<br>(or click to select {files})',
         fileActionSettings: {
             removeTitle: 'Remove file',
-            uploadTitle: 'Upload file',
+            //uploadTitle: 'Upload file',
             uploadRetryTitle: 'Retry upload',
             downloadTitle: 'Download file',
             zoomTitle: 'View details',

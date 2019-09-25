@@ -1017,7 +1017,7 @@ Change Log: `bootstrap-fileinput`
 - To use AJAX Upload, the `uploadUrl` property is MANDATORY and must be set.
 - Enhance plugin to now allow files to be added, appended, removed (based on FEEDBACK from many). Thus one can append files to preview.
 - New DRAG & DROP zone available in preview to drag and drop files and append.
-- Delete or upload files one by one OR in batch.
+- Delete or s one by one OR in batch.
 - If `showPreview` is set to false, or uploadUrl is not supported plugin will degrade to normal form based upload.
 - Configurable indicators for file awaiting upload, file successfully uploaded, files errored in upload.
 - Ability to add extra form data with ajax based uploads.
@@ -1258,7 +1258,7 @@ Initial release. The following features are included in this release:
 - The plugin will convert a simple HTML file input to an advanced file picker control. Will help fallback to a file input for browsers not supporting JQuery or Javascript.
 - The file input consists of the following three sections with options and templates to control the display:
    - file caption section: to display a brief information of the file(s) selected
-   - file action buttons section: to browse, remove, and upload files.
+   - file action buttons section: to browse, remove, and s.
    - file preview section: to display the selected files on client for preview (supports images and text file types). Other file types will be displayed as normal thumbnails.
 - The plugin automatically converts an input with `type = file` to an advanced file picker input if you set its `class = file`. All options to the input can be passed as HTML5 `data` attributes.
 - Ability to select and preview multiple files. Uses HTML 5 File reader API to read and preview files. Displays the progress of files being being loaded onto the preview zone, in case many files are chosen.
