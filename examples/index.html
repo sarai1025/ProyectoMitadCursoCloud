@@ -31,7 +31,7 @@
                 ¡Sube una imagen de la placa ubicada en la puerta del profesor que estas buscando y conoce su
                 disponiblidad!
             </h5>
-        </h1>    
+        </h1>
         <br>
         <form enctype="multipart/form-data">
             <div class="file-loading">
@@ -40,15 +40,34 @@
         </form>
         <hr>
         <br>
-        <button type="button" class="btn btn-secondary">Consultar disponiblidad</button>
-            
-            <button type="button" class="btn btn-secondary">Visualizar horario</button>
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Consultar disponiblidad</button>
+
+        <!--MODAL DE DISPONIBILIDAD-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        El profesor x esta ubicado en z y se encuentra disponible a las ww del día yy.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN MODAL DE DISPONIBILIDAD-->
+
+        <button type="button" class="btn btn-secondary">Visualizar horario</button>
     </div>
 </body>
 
 
 <script>
-   
+
     $('#file-es').fileinput({
         theme: 'fas',
         language: 'es',
